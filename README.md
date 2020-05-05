@@ -1,6 +1,6 @@
 # Time Exchange
 
-Time Exchange Service
+Time Exchange Service. Your time is as valuable as anyone else's
 
 
 ### Concept
