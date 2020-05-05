@@ -11,6 +11,7 @@ Exchange your time for time credits - then use those credits to aquire services.
 
 * Account setup with verification - offer your services
 * User account dashboard showing time credits etc
-* Search for offered services locally or remotley
+* Search for offered services locally or remotely
+* Quote for services in time - agreement before works commence
 * Review services completed
 
