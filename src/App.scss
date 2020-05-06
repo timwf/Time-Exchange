@@ -1,0 +1,77 @@
+
+.section-break{
+  margin-top: 6rem;
+}
+
+.hero-content {
+  h1, h3{
+    background: -webkit-linear-gradient(left, #581E56 0%,  #BD4848 79%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+  
+
+
+}
+.image-hero {
+  background-image: url('/assets/hero-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+}
+
+
+.announce-text{
+  margin: 0;
+  padding: 2px;
+  font-weight: 100;
+}
+
+.announce-cont{
+  background-color: #d5d5d5;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-nav{
+  align-items: center;
+  .btn{
+    height: 35px;
+    padding: 2px 10px;
+  }
+}
+
+.navbar-item{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-item{
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.suggestions-hero{
+  display: inline-flex;
+  white-space: nowrap;
+  align-items: center;
+  p{
+    margin: 0;
+    padding-right: 10px;
+  }
+  .btn{
+    font-size: 0.75rem;
+    margin-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+
+
+
+@import "~bootstrap/scss/bootstrap";
+
+
