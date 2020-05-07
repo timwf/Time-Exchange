@@ -14,7 +14,10 @@ const Styles = styled.div`
 
 // className="justify-content-end"
 
-function NavBar() {
+function NavBar(props) {
+
+    console.log(props);
+    
     return (
         <Styles>
             <Navbar sticky="top" collapseOnSelect expand="lg" bg="light" variant="light">
@@ -33,7 +36,7 @@ function NavBar() {
                 </Nav.Item>
                 <Nav.Item>
                 </Nav.Item>
-                <Button>Sign Up</Button>
+                <Button onClick={() => props.handleShow()}>Sign Up</Button>
             </Nav>
             </Navbar.Collapse>
             </Navbar>
